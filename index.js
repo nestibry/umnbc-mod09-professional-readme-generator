@@ -6,25 +6,64 @@ const { generateMarkdown } = require("./assets/utils/generate-markdown.js");
 
 // TODO: Create an array of questions for user input
 const questions = [
+    
+    {
+        type: "input",
+        name: "username",
+        message: "What is your GitHub username?",
+        default: "nestibry",
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "What is your email address?",
+        default: "example@gmail.com",
+    },
     {
         type: "input",
         name: "title",
         message: "What is the Project Title?",
     },
+    {
+        type: "input",
+        name: "description",
+        message: "Please write a short description of your project:",
+    },
+    {
+        type: "list",
+        name: "license",
+        message: "Choose a license:",
+        choices: [  
+            "Microsoft Public License",
+            "MIT", 
+            "Mozilla Public License 2.0",
+            "Open Software License 3.0",
+            "None", 
+        ],
+    },
+    {
+        type: "input",
+        name: "installcmd",
+        message: "What command should be invoked to install dependencies?",
+        default: "npm i inquirer@8.2.4",
+    },
+    {
+        type: "input",
+        name: "testcmd",
+        message: "What command should be invoked to run tests?",
+        default: "node index.js",
+    },
+    {
+        type: "input",
+        name: "usage",
+        message: "Please write a short 'Usage' instruction:",
+    },
+    {
+        type: "input",
+        name: "contribution",
+        message: "Please write a short 'Contributing' instruction:",
+    },
 ];
-
-/* 
-    List of Questions to add:
-    [X] 1. Project Title (name: "title")
-    [ ] 2. Description - & bullet list?
-    [ ] 3. Installation Instructions - bullet list?
-    [ ] 4. Usage Information - bullet list?, Files?, Images(looping)?
-    [ ] 5. Contribution Guidelines - default or add other or both
-    [ ] 6. Test Instructions - & bullet list?
-    [ ] 7. License - choose 1
-    [ ] 8. GitHub Username input
-    [ ] 9. Contact Email Address  
-*/  
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {

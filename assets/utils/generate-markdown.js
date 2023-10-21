@@ -14,7 +14,7 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
     return `# ${data.title}
 *User Inputs for Testing Script -- Delete at end of project*
-- ${JSON.stringify(data)}
+${JSON.stringify(data)}
 
 ## Description
 

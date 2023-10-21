@@ -1,6 +1,6 @@
-# NHT Project
-*User Inputs for Testing Script*
-- {"title":"NHT Project"}
+# BMW Project
+*User Inputs for Testing Script -- Delete at end of project*
+{"title":"BMW Project","username":"nestibry","email":"example@gmail.com"}
 
 ## Description
 
