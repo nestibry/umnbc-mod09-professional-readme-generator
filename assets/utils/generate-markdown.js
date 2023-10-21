@@ -13,6 +13,8 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
     return `# ${data.title}
+*User Inputs for Testing Script -- Delete at end of project*
+- ${JSON.stringify(data)}
 
 ## Description
 
