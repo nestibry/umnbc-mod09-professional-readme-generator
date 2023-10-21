@@ -4,7 +4,8 @@ const fs = require('fs');
 const { generateMarkdown } = require("./assets/utils/generate-markdown.js");
 
 
-// TODO: Create an array of questions for user input
+// Create an array of questions for user input
+// TODO: Finalize License question choices
 const questions = [
     
     {
@@ -78,7 +79,6 @@ function init() {
 
     inquirer.prompt(questions)
     .then(response => {
-        console.log(response);
         writeToFile('./assets/output/generated-readme.md', response);
     });
 

@@ -1,6 +1,6 @@
-# BMW Project
+# Awesome Project
 *User Inputs for Testing Script -- Delete at end of project*
-{"title":"BMW Project","username":"nestibry","email":"example@gmail.com"}
+{"username":"nestibry","email":"example@gmail.com","title":"Awesome Project","description":"TEST TEST TEST","license":"MIT","installcmd":"npm i inquirer@8.2.4","testcmd":"node index.js","usage":"Hhahahah","contribution":"ahhahhaa"}
 
 ## Description
 
