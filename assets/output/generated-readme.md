@@ -1,10 +1,10 @@
-# THN Project
+# asdfasdf
 *User Inputs for Testing Script -- Delete at end of project*
-{"username":"nestibry","email":"example@gmail.com","title":"THN Project","description":"TEST TEST TEST","license":"Microsoft Public License","installcmd":"npm i inquirer@8.2.4","testcmd":"node index.js","usage":"Install the dependencies and then exectute the tests","contribution":"Please be careful when making additions"}
+{"username":"nestibry","email":"example@gmail.com","title":"asdfasdf","description":"asdfasfdas","license":"Microsoft Public License","installcmd":"npm i inquirer@8.2.4","testcmd":"node index.js","usage":"","contribution":""}
 
 ## Description
 
-TEST TEST TEST
+asdfasfdas
 
 ## Table of Contents
 
@@ -17,22 +17,25 @@ TEST TEST TEST
 
 ## Usage
 
-Install the dependencies and then exectute the tests
+
 
 ## Installation
 
 Execute the following in a bash command-line to install dependencies:
+```
 npm i inquirer@8.2.4
+```
 
 ## Tests
 
 Execute the following in a bash command-line to run tests:
+```
 node index.js
-
+```
 
 ## Contributing
 
-- Please be careful when making additions
+- 
 - AND
 - Please follow the [Contributor Covenant](https://www.contributor-covenant.org/) when contributing
 

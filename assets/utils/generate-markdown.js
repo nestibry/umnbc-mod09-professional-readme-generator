@@ -36,19 +36,21 @@ ${data.usage}
 ## Installation
 
 Execute the following in a bash command-line to install dependencies:
+\`\`\`
 ${data.installcmd}
+\`\`\`
 
 ## Tests
 
 Execute the following in a bash command-line to run tests:
+\`\`\`
 ${data.testcmd}
-
+\`\`\`
 
 ## Contributing
 
 - ${data.contribution}
-- AND
-- Please follow the [Contributor Covenant](https://www.contributor-covenant.org/) when contributing
+- If allowed to contribute, please follow the [Contributor Covenant](https://www.contributor-covenant.org/) when contributing
 
 
 ## Questions
