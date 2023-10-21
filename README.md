@@ -14,10 +14,7 @@
 1. Install Node.js locally
 2. Clone or Fork the Repo
 3. Open Repo Directory in VS Code Integrated Terminal (or Git Bash)
-4. Execute in bash command-line: 
-    ```bash 
-    node index.js
-    ```
+4. Execute `node index.js` in a bash command-line
 5. Answer the command-line prompts.
 6. Open the file `./assets/md/generated-readme.md` to view the professional README file generated from the prompts 
 
