@@ -1,48 +1,50 @@
-# Awesome Project
+# THN Project
 *User Inputs for Testing Script -- Delete at end of project*
-{"username":"nestibry","email":"example@gmail.com","title":"Awesome Project","description":"TEST TEST TEST","license":"MIT","installcmd":"npm i inquirer@8.2.4","testcmd":"node index.js","usage":"Hhahahah","contribution":"ahhahhaa"}
+{"username":"nestibry","email":"example@gmail.com","title":"THN Project","description":"TEST TEST TEST","license":"Microsoft Public License","installcmd":"npm i inquirer@8.2.4","testcmd":"node index.js","usage":"Install the dependencies and then exectute the tests","contribution":"Please be careful when making additions"}
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+TEST TEST TEST
 
 ## Table of Contents
 
-- [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
+- [Installation](#installation)
 - [Tests](#tests)
+- [Contributing](#contributing)
 - [Questions](#questions)
 - [License](#license)
 
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Install the dependencies and then exectute the tests
 
-To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+## Installation
 
-## Contributing
-
-- Please follow the [Contributor Covenant](https://www.contributor-covenant.org/) when contributing
+Execute the following in a bash command-line to install dependencies:
+npm i inquirer@8.2.4
 
 ## Tests
 
+Execute the following in a bash command-line to run tests:
+node index.js
+
+
+## Contributing
+
+- Please be careful when making additions
+- AND
+- Please follow the [Contributor Covenant](https://www.contributor-covenant.org/) when contributing
+
+
 ## Questions
+
+- GitHub Profile: [nestibry](https://github.com/nestibry)
+- Please email me at [example@gmail.com](mailto:example@gmail.com) with any questions
 
 ## License
 
-- [https://choosealicense.com/](https://choosealicense.com/).
-- ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-- [shields.io](https://shields.io/).
+- Microsoft Public License
 
 
 
