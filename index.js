@@ -13,6 +13,19 @@ const questions = [
     },
 ];
 
+/* 
+    List of Questions to add:
+    [X] 1. Project Title (name: "title")
+    [ ] 2. Description - & bullet list?
+    [ ] 3. Installation Instructions - bullet list?
+    [ ] 4. Usage Information - bullet list?, Files?, Images(looping)?
+    [ ] 5. Contribution Guidelines - default or add other or both
+    [ ] 6. Test Instructions - & bullet list?
+    [ ] 7. License - choose 1
+    [ ] 8. GitHub Username input
+    [ ] 9. Contact Email Address  
+*/  
+
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     
