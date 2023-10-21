@@ -12,7 +12,12 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    
+    var markdownStr = `# ${data.title}`;
+    fs.writeFile(fileName, markdownStr, (err) => err ? console.log(err) : console.log(`Success, see: ${fileName}`));
+
+}
 
 // TODO: Create a function to initialize app
 function init() {
@@ -20,8 +25,7 @@ function init() {
     inquirer.prompt(questions)
     .then(response => {
         console.log(response);
-        var responseStr = JSON.stringify(response);
-        fs.writeFile('./assets/output/generated-readme.md', responseStr, (err) => err ? console.log(err) : console.log('Successfuly generated file!'));
+        writeToFile('./assets/output/generated-readme.md', response);
     });
 
 }
