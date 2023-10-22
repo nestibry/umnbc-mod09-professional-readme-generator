@@ -1,13 +1,10 @@
-# BKN rocks
+# t
 
-![](https://img.shields.io/badge/License-Mozilla_Public_License_2.0-blue)
-
-*User Inputs for Testing Script -- Delete at end of project*
-{"username":"nestibry","email":"example@gmail.com","title":"BKN rocks","description":"afaaa","license":"Mozilla Public License 2.0","installcmd":"npm i inquirer@8.2.4","testcmd":"node index.js","usage":"a","contribution":"a","badgeUrl":"https://img.shields.io/badge/License-Mozilla_Public_License_2.0-blue","licenseUrl":"https://choosealicense.com/licenses/mpl-2.0/"}
+![](https://img.shields.io/badge/License-GNU_AGPLv3-blue)
 
 ## Description
 
-afaaa
+t
 
 ## Table of Contents
 
@@ -20,7 +17,7 @@ afaaa
 
 ## Usage
 
-a
+t
 
 ## Installation
 
@@ -38,7 +35,7 @@ node index.js
 
 ## Contributing
 
-- a
+- t
 - If allowed to contribute, please follow the [Contributor Covenant](https://www.contributor-covenant.org/) when contributing
 
 
@@ -49,7 +46,4 @@ node index.js
 
 ## License
 
-- [Mozilla Public License 2.0](https://choosealicense.com/licenses/mpl-2.0/)
-
-
-
+ The content of this application is licensed under the [GNU AGPLv3](https://choosealicense.com/licenses/agpl-3.0/)

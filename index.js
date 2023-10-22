@@ -4,6 +4,7 @@ const fs = require('fs');
 const { generateMarkdown } = require("./assets/utils/generate-markdown.js");
 const { renderLicenseLink } = require("./assets/utils/generate-markdown.js");
 const { renderLicenseBadge } = require("./assets/utils/generate-markdown.js");
+const { renderLicenseSection } = require("./assets/utils/generate-markdown.js");
 
 // Create an array of questions for user input
 const questions = [
@@ -77,8 +78,9 @@ function writeToFile(fileName, data) {
     // console.log(licenseUrl);
     data.badgeUrl = renderLicenseBadge(data.license);
     data.licenseUrl = renderLicenseLink(data.license);
-    console.log(data.badgeUrl);
-    console.log(data.licenseUrl);
+    data.licenseSectionStr = renderLicenseSection(data.license, data.licenseUrl);
+    console.log(data.licenseSectionStr);
+    // console.log(data.licenseUrl);
     let markdownStr = generateMarkdown(data);
     fs.writeFile(fileName, markdownStr, (err) => err ? console.log(err) : console.log(`Success, see: ${fileName}`));
 

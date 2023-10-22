@@ -1,10 +1,10 @@
 // Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-    let badgeUrl = "";
+    let badgeUrl = ``;
     var newLicenseStr = license.replace(/ /g, '_');
     if(license.toLowerCase() !== "none"){
-        badgeUrl = `https://img.shields.io/badge/License-${newLicenseStr}-blue`;
+        badgeUrl = `![](https://img.shields.io/badge/License-${newLicenseStr}-blue)`;
     }
     return badgeUrl;
 }
@@ -18,7 +18,7 @@ function renderLicenseLink(license) {
 
     switch(license) {
         case "None":
-            licenseUrl = "None";
+            licenseUrl = "";
             break;
         case "GNU AGPLv3":
             licenseUrl = "https://choosealicense.com/licenses/agpl-3.0/";
@@ -44,18 +44,23 @@ function renderLicenseLink(license) {
     return licenseUrl;
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
+// Create a function that returns the license section of README
+// If there is no license, return a string saying it is not licensed
+function renderLicenseSection(licenseName, licenseUrl) {
 
-// TODO: Create a function to generate markdown for README
+    let licenseSectionStr = `The content of this application is not licensed.`;
+    
+    if(licenseName.toLowerCase() !== "none"){
+        licenseSectionStr = `The content of this application is licensed under the [${licenseName}](${licenseUrl})`;
+    }
+    return licenseSectionStr;
+}
+
+// Create a function to generate markdown for README
 function generateMarkdown(data) {
     return `# ${data.title}
 
-![](${data.badgeUrl})
-
-*User Inputs for Testing Script -- Delete at end of project*
-${JSON.stringify(data)}
+${data.badgeUrl}
 
 ## Description
 
@@ -101,10 +106,7 @@ ${data.testcmd}
 
 ## License
 
-- [${data.license}](${data.licenseUrl})
-
-
-
+ ${data.licenseSectionStr}
 `;
 }
 
@@ -112,6 +114,5 @@ module.exports = {
     generateMarkdown,
     renderLicenseLink,
     renderLicenseBadge,
-
-
+    renderLicenseSection,
 };
