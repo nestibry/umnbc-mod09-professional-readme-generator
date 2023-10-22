@@ -5,7 +5,6 @@ const { generateMarkdown } = require("./assets/utils/generate-markdown.js");
 
 
 // Create an array of questions for user input
-// TODO: Finalize License question choices
 const questions = [
     
     {
@@ -35,11 +34,13 @@ const questions = [
         name: "license",
         message: "Choose a license:",
         choices: [  
-            "Microsoft Public License",
-            "MIT", 
+            "None",
+            "GNU AGPLv3", 
             "Mozilla Public License 2.0",
-            "Open Software License 3.0",
-            "None", 
+            "Apache License 2.0", 
+            "MIT License",
+            "Boost Software License 1.0",
+            "The Unlicense",
         ],
     },
     {
