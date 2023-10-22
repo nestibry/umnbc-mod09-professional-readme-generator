@@ -71,15 +71,15 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     
-    let badgeUrl = renderLicenseBadge(data.license);
-    let licenseUrl = renderLicenseLink(data.license);
-    console.log(badgeUrl);
-    console.log(licenseUrl);
-    data.badgeUrl = badgeUrl;
-    data.licenseUrl = licenseUrl;
+    // let badgeUrl = renderLicenseBadge(data.license);
+    // let licenseUrl = renderLicenseLink(data.license);
+    // console.log(badgeUrl);
+    // console.log(licenseUrl);
+    data.badgeUrl = renderLicenseBadge(data.license);
+    data.licenseUrl = renderLicenseLink(data.license);
     console.log(data.badgeUrl);
     console.log(data.licenseUrl);
-    let markdownStr = generateMarkdown(data, badgeUrl, licenseUrl);
+    let markdownStr = generateMarkdown(data);
     fs.writeFile(fileName, markdownStr, (err) => err ? console.log(err) : console.log(`Success, see: ${fileName}`));
 
 }

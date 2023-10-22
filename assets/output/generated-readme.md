@@ -1,13 +1,13 @@
-# HIGH FIVE
+# BKN rocks
 
-![](https://img.shields.io/badge/License-Boost_Software_License_1.0-blue)
+![](https://img.shields.io/badge/License-Mozilla_Public_License_2.0-blue)
 
 *User Inputs for Testing Script -- Delete at end of project*
-{"username":"nestibry","email":"example@gmail.com","title":"HIGH FIVE","description":"TEST","license":"Boost Software License 1.0","installcmd":"npm i inquirer@8.2.4","testcmd":"node index.js","usage":"TEST","contribution":"TEST","badgeUrl":"https://img.shields.io/badge/License-Boost_Software_License_1.0-blue","licenseUrl":"https://choosealicense.com/licenses/bsl-1.0/"}
+{"username":"nestibry","email":"example@gmail.com","title":"BKN rocks","description":"afaaa","license":"Mozilla Public License 2.0","installcmd":"npm i inquirer@8.2.4","testcmd":"node index.js","usage":"a","contribution":"a","badgeUrl":"https://img.shields.io/badge/License-Mozilla_Public_License_2.0-blue","licenseUrl":"https://choosealicense.com/licenses/mpl-2.0/"}
 
 ## Description
 
-TEST
+afaaa
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ TEST
 
 ## Usage
 
-TEST
+a
 
 ## Installation
 
@@ -38,7 +38,7 @@ node index.js
 
 ## Contributing
 
-- TEST
+- a
 - If allowed to contribute, please follow the [Contributor Covenant](https://www.contributor-covenant.org/) when contributing
 
 
@@ -49,7 +49,7 @@ node index.js
 
 ## License
 
-- [Boost Software License 1.0](https://choosealicense.com/licenses/bsl-1.0/)
+- [Mozilla Public License 2.0](https://choosealicense.com/licenses/mpl-2.0/)
 
 
 

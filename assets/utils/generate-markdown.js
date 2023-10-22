@@ -1,4 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+// Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
     let badgeUrl = "";
@@ -9,7 +9,7 @@ function renderLicenseBadge(license) {
     return badgeUrl;
 }
 
-// TODO: Create a function that returns the license link
+// Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
 
@@ -18,7 +18,7 @@ function renderLicenseLink(license) {
 
     switch(license) {
         case "None":
-            licenseUrl = "";
+            licenseUrl = "None";
             break;
         case "GNU AGPLv3":
             licenseUrl = "https://choosealicense.com/licenses/agpl-3.0/";
