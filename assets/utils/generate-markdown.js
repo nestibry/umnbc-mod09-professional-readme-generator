@@ -49,10 +49,10 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data, badgeUrl, licenseUrl) {
+function generateMarkdown(data) {
     return `# ${data.title}
 
-![](${badgeUrl})
+![](${data.badgeUrl})
 
 *User Inputs for Testing Script -- Delete at end of project*
 ${JSON.stringify(data)}
@@ -101,7 +101,7 @@ ${data.testcmd}
 
 ## License
 
-- [${data.license}](${licenseUrl})
+- [${data.license}](${data.licenseUrl})
 
 
 

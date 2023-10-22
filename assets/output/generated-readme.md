@@ -1,9 +1,9 @@
-# Mara's Proj
+# HIGH FIVE
 
-![](https://img.shields.io/badge/License-GNU_AGPLv3-blue)
+![](https://img.shields.io/badge/License-Boost_Software_License_1.0-blue)
 
 *User Inputs for Testing Script -- Delete at end of project*
-{"username":"nestibry","email":"example@gmail.com","title":"Mara's Proj","description":"TEST","license":"GNU AGPLv3","installcmd":"npm i inquirer@8.2.4","testcmd":"node index.js","usage":"TEST","contribution":"TEST"}
+{"username":"nestibry","email":"example@gmail.com","title":"HIGH FIVE","description":"TEST","license":"Boost Software License 1.0","installcmd":"npm i inquirer@8.2.4","testcmd":"node index.js","usage":"TEST","contribution":"TEST","badgeUrl":"https://img.shields.io/badge/License-Boost_Software_License_1.0-blue","licenseUrl":"https://choosealicense.com/licenses/bsl-1.0/"}
 
 ## Description
 
@@ -49,7 +49,7 @@ node index.js
 
 ## License
 
-- [GNU AGPLv3](https://choosealicense.com/licenses/agpl-3.0/)
+- [Boost Software License 1.0](https://choosealicense.com/licenses/bsl-1.0/)
 
 
 
