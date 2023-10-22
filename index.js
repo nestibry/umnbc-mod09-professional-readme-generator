@@ -2,7 +2,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const { generateMarkdown } = require("./assets/utils/generate-markdown.js");
-
+const { renderLicenseLink } = require("./assets/utils/generate-markdown.js");
+const { renderLicenseBadge } = require("./assets/utils/generate-markdown.js");
 
 // Create an array of questions for user input
 const questions = [
@@ -70,7 +71,11 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     
-    var markdownStr = generateMarkdown(data);
+    let badgeUrl = renderLicenseBadge(data.license);
+    let licenseUrl = renderLicenseLink(data.license);
+    console.log(badgeUrl);
+    console.log(licenseUrl);
+    let markdownStr = generateMarkdown(data);
     fs.writeFile(fileName, markdownStr, (err) => err ? console.log(err) : console.log(`Success, see: ${fileName}`));
 
 }

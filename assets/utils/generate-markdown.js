@@ -2,14 +2,14 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
     let badgeUrl = "";
-    var newLicenseStr = license.replace(' ', '_');
+    var newLicenseStr = license.replace(/ /g, '_');
     if(license.toLowerCase() !== "none"){
         badgeUrl = `https://img.shields.io/badge/License-${newLicenseStr}-blue`;
     }
     return badgeUrl;
 }
 
-// Create a function that returns the license link
+// TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
 
@@ -109,6 +109,6 @@ module.exports = {
     generateMarkdown,
     renderLicenseLink,
     renderLicenseBadge,
-    
+
 
 };

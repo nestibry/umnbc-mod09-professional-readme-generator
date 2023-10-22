@@ -1,10 +1,10 @@
-# asdfasdf
+# BKN TEST
 *User Inputs for Testing Script -- Delete at end of project*
-{"username":"nestibry","email":"example@gmail.com","title":"asdfasdf","description":"asdfasfdas","license":"Microsoft Public License","installcmd":"npm i inquirer@8.2.4","testcmd":"node index.js","usage":"","contribution":""}
+{"username":"nestibry","email":"example@gmail.com","title":"BKN TEST","description":"TTTTT","license":"Mozilla Public License 2.0","installcmd":"npm i inquirer@8.2.4","testcmd":"node index.js","usage":"aaaa","contribution":"bbbbb"}
 
 ## Description
 
-asdfasfdas
+TTTTT
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@ asdfasfdas
 
 ## Usage
 
-
+aaaa
 
 ## Installation
 
@@ -35,9 +35,8 @@ node index.js
 
 ## Contributing
 
-- 
-- AND
-- Please follow the [Contributor Covenant](https://www.contributor-covenant.org/) when contributing
+- bbbbb
+- If allowed to contribute, please follow the [Contributor Covenant](https://www.contributor-covenant.org/) when contributing
 
 
 ## Questions
@@ -47,7 +46,7 @@ node index.js
 
 ## License
 
-- Microsoft Public License
+- Mozilla Public License 2.0
 
 
 
