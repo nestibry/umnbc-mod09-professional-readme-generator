@@ -53,7 +53,7 @@ function generateMarkdown(data, badgeUrl, licenseUrl) {
     return `# ${data.title}
 
 ![](${badgeUrl})
-    
+
 *User Inputs for Testing Script -- Delete at end of project*
 ${JSON.stringify(data)}
 
@@ -101,7 +101,7 @@ ${data.testcmd}
 
 ## License
 
-- ${data.license}
+- [${data.license}](${licenseUrl})
 
 
 

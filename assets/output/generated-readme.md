@@ -1,9 +1,9 @@
-# THN Rocks
+# Mara's Proj
 
-![](https://img.shields.io/badge/License-The_Unlicense-blue)
-    
+![](https://img.shields.io/badge/License-GNU_AGPLv3-blue)
+
 *User Inputs for Testing Script -- Delete at end of project*
-{"username":"nestibry","email":"example@gmail.com","title":"THN Rocks","description":"TEST","license":"The Unlicense","installcmd":"npm i inquirer@8.2.4","testcmd":"node index.js","usage":"TEST","contribution":"TEST"}
+{"username":"nestibry","email":"example@gmail.com","title":"Mara's Proj","description":"TEST","license":"GNU AGPLv3","installcmd":"npm i inquirer@8.2.4","testcmd":"node index.js","usage":"TEST","contribution":"TEST"}
 
 ## Description
 
@@ -49,7 +49,7 @@ node index.js
 
 ## License
 
-- The Unlicense
+- [GNU AGPLv3](https://choosealicense.com/licenses/agpl-3.0/)
 
 
 
