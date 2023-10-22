@@ -1,4 +1,4 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const { generateMarkdown } = require("./assets/utils/generate-markdown.js");
@@ -69,18 +69,13 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to write README file
+// Create a function to write README file
 function writeToFile(fileName, data) {
     
-    // let badgeUrl = renderLicenseBadge(data.license);
-    // let licenseUrl = renderLicenseLink(data.license);
-    // console.log(badgeUrl);
-    // console.log(licenseUrl);
     data.badgeUrl = renderLicenseBadge(data.license);
     data.licenseUrl = renderLicenseLink(data.license);
     data.licenseSectionStr = renderLicenseSection(data.license, data.licenseUrl);
-    console.log(data.licenseSectionStr);
-    // console.log(data.licenseUrl);
+    
     let markdownStr = generateMarkdown(data);
     fs.writeFile(fileName, markdownStr, (err) => err ? console.log(err) : console.log(`Success, see: ${fileName}`));
 

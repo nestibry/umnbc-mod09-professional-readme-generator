@@ -1,10 +1,10 @@
-# t
+# THN rocks
 
-![](https://img.shields.io/badge/License-GNU_AGPLv3-blue)
+![](https://img.shields.io/badge/License-Boost_Software_License_1.0-blue)
 
 ## Description
 
-t
+TEST
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@ t
 
 ## Usage
 
-t
+TEST
 
 ## Installation
 
@@ -35,7 +35,7 @@ node index.js
 
 ## Contributing
 
-- t
+- TEST
 - If allowed to contribute, please follow the [Contributor Covenant](https://www.contributor-covenant.org/) when contributing
 
 
@@ -46,4 +46,4 @@ node index.js
 
 ## License
 
- The content of this application is licensed under the [GNU AGPLv3](https://choosealicense.com/licenses/agpl-3.0/)
+ The content of this application is licensed under the [Boost Software License 1.0](https://choosealicense.com/licenses/bsl-1.0/)
