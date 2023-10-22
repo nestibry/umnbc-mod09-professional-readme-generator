@@ -49,8 +49,11 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
+function generateMarkdown(data, badgeUrl, licenseUrl) {
     return `# ${data.title}
+
+![](${badgeUrl})
+    
 *User Inputs for Testing Script -- Delete at end of project*
 ${JSON.stringify(data)}
 

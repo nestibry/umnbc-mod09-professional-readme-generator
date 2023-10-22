@@ -75,7 +75,7 @@ function writeToFile(fileName, data) {
     let licenseUrl = renderLicenseLink(data.license);
     console.log(badgeUrl);
     console.log(licenseUrl);
-    let markdownStr = generateMarkdown(data);
+    let markdownStr = generateMarkdown(data, badgeUrl, licenseUrl);
     fs.writeFile(fileName, markdownStr, (err) => err ? console.log(err) : console.log(`Success, see: ${fileName}`));
 
 }
