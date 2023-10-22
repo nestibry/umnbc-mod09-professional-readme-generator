@@ -1,10 +1,10 @@
-# asdfasdf
-*User Inputs for Testing Script -- Delete at end of project*
-{"username":"nestibry","email":"example@gmail.com","title":"asdfasdf","description":"asdfasfdas","license":"Microsoft Public License","installcmd":"npm i inquirer@8.2.4","testcmd":"node index.js","usage":"","contribution":""}
+# THN rocks
+
+![](https://img.shields.io/badge/License-Boost_Software_License_1.0-blue)
 
 ## Description
 
-asdfasfdas
+TEST
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@ asdfasfdas
 
 ## Usage
 
-
+TEST
 
 ## Installation
 
@@ -35,9 +35,8 @@ node index.js
 
 ## Contributing
 
-- 
-- AND
-- Please follow the [Contributor Covenant](https://www.contributor-covenant.org/) when contributing
+- TEST
+- If allowed to contribute, please follow the [Contributor Covenant](https://www.contributor-covenant.org/) when contributing
 
 
 ## Questions
@@ -47,7 +46,4 @@ node index.js
 
 ## License
 
-- Microsoft Public License
-
-
-
+ The content of this application is licensed under the [Boost Software License 1.0](https://choosealicense.com/licenses/bsl-1.0/)

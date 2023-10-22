@@ -1,11 +1,12 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const { generateMarkdown } = require("./assets/utils/generate-markdown.js");
-
+const { renderLicenseLink } = require("./assets/utils/generate-markdown.js");
+const { renderLicenseBadge } = require("./assets/utils/generate-markdown.js");
+const { renderLicenseSection } = require("./assets/utils/generate-markdown.js");
 
 // Create an array of questions for user input
-// TODO: Finalize License question choices
 const questions = [
     
     {
@@ -35,11 +36,13 @@ const questions = [
         name: "license",
         message: "Choose a license:",
         choices: [  
-            "Microsoft Public License",
-            "MIT", 
+            "None",
+            "GNU AGPLv3", 
             "Mozilla Public License 2.0",
-            "Open Software License 3.0",
-            "None", 
+            "Apache License 2.0", 
+            "MIT License",
+            "Boost Software License 1.0",
+            "The Unlicense",
         ],
     },
     {
@@ -66,10 +69,14 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to write README file
+// Create a function to write README file
 function writeToFile(fileName, data) {
     
-    var markdownStr = generateMarkdown(data);
+    data.badgeUrl = renderLicenseBadge(data.license);
+    data.licenseUrl = renderLicenseLink(data.license);
+    data.licenseSectionStr = renderLicenseSection(data.license, data.licenseUrl);
+    
+    let markdownStr = generateMarkdown(data);
     fs.writeFile(fileName, markdownStr, (err) => err ? console.log(err) : console.log(`Success, see: ${fileName}`));
 
 }

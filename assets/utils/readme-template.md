@@ -46,3 +46,5 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 - [https://choosealicense.com/](https://choosealicense.com/).
 - ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 - [shields.io](https://shields.io/).
+- ![license_badge](https://img.shields.io/badge/License-MIT-blue)
+- ["License"](../../LICENSE2)
