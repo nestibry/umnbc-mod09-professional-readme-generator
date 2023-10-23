@@ -27,9 +27,8 @@
 - README.md
 - ./assets/md/generated-readme.md
 
-#### Usage Examples
-- Link to How-to Video
-- Example images
+#### Click the link to view the [Demo Video](https://drive.google.com/file/d/1sFGa3iuThBwFbmOwFyWgOm3I67zAdO6v/view).
+![Demo Video Screenshot](./assets/images/demo-video-screenshot.png)
 
  
 ## Credits
@@ -37,4 +36,4 @@
 
 ## License
 
-- [MIT License](https://choosealicense.com/licenses/mit/)
+- The content of this application is licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
