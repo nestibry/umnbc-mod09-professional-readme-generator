@@ -1,10 +1,10 @@
-# Weada
+# Professional README Generator
 
-![](https://img.shields.io/badge/License-Boost_Software_License_1.0-blue)
+![](https://img.shields.io/badge/License-The_Unlicense-blue)
 
 ## Description
 
-Retrieves and displays 5-day weather forecast for cities using the OpenWeather API.  <br>   - The app features a responsive user interface powered by jQuery and Bootstrap  <br>    - Displays current local time using Day.js  <br>    - User can search for a city to generate its weather forecast using the OpenWeather API  <br>   - Uses localStorage to store searched for cities.
+Quickly and easily generate a README file by using a command-line application, powered by Node.js. This command-line application dynamically generates a professional README.md file from a user's input using the Inquirer package. The application uses Professional README Guide as a template for a high-quality, professional README which includes Title of the project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@ Retrieves and displays 5-day weather forecast for cities using the OpenWeather A
 
 ## Usage
 
-- Deployed Site:  https://nestibry.github.io/umnbc-mod06-weather-dashboard/
+Please send an email to the code owner before contributing. (See questions section for contact information.) 
 
 ## Installation
 
@@ -35,7 +35,7 @@ node index.js
 
 ## Contributing
 
-- Please send an email to the code owner before contributing. (See questions section for contact information.)
+- Please send an email to the code owner before contributing. (See questions section for contact information.) 
 - If allowed to contribute, please follow the [Contributor Covenant](https://www.contributor-covenant.org/) when contributing
 
 
@@ -46,4 +46,4 @@ node index.js
 
 ## License
 
- The content of this application is licensed under the [Boost Software License 1.0](https://choosealicense.com/licenses/bsl-1.0/)
+ The content of this application is licensed under the [The Unlicense](https://choosealicense.com/licenses/unlicense/)
