@@ -1,10 +1,10 @@
-# Professional README Generator
+# test
 
-![](https://img.shields.io/badge/License-The_Unlicense-blue)
+![](https://img.shields.io/badge/License-MIT_License-blue)
 
 ## Description
 
-Quickly and easily generate a README file by using a command-line application, powered by Node.js. This command-line application dynamically generates a professional README.md file from a user's input using the Inquirer package. The application uses Professional README Guide as a template for a high-quality, professional README which includes Title of the project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.
+test
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@ Quickly and easily generate a README file by using a command-line application, p
 
 ## Usage
 
-Please send an email to the code owner before contributing. (See questions section for contact information.) 
+Please install Inquirer (see installation instructions) and execute the script using Node.js (see test instructions).
 
 ## Installation
 
@@ -35,9 +35,7 @@ node index.js
 
 ## Contributing
 
-- Please send an email to the code owner before contributing. (See questions section for contact information.) 
-- If allowed to contribute, please follow the [Contributor Covenant](https://www.contributor-covenant.org/) when contributing
-
+- Please send an email to the code owner before contributing. (See questions section for contact information.) If allowed to contribute, please follow the [Contributor Covenant](https://www.contributor-covenant.org/) when contributing.
 
 ## Questions
 
@@ -46,4 +44,5 @@ node index.js
 
 ## License
 
- The content of this application is licensed under the [The Unlicense](https://choosealicense.com/licenses/unlicense/)
+- The content of this application is licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
+
