@@ -96,8 +96,6 @@ ${data.testcmd}
 ## Contributing
 
 - ${data.contribution}
-- If allowed to contribute, please follow the [Contributor Covenant](https://www.contributor-covenant.org/) when contributing
-
 
 ## Questions
 
@@ -106,7 +104,8 @@ ${data.testcmd}
 
 ## License
 
- ${data.licenseSectionStr}
+- ${data.licenseSectionStr}
+
 `;
 }
 
